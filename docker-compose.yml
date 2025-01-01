@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    image: indoorfinality/php-hello-world:lastest
+    ports:
+      - "8081:80"
